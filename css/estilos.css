@@ -1,0 +1,197 @@
+/* Reset de propriedades */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+/* imports de fonts do google */
+
+/* header */
+
+header {
+    background-color: #3A4454;
+    overflow: hidden;
+    min-width: 890px;
+}
+
+header img {
+    width: 80px;
+    float: left;
+    margin-left: 10%;
+    padding: 10px 0 10px 0;
+    
+}
+
+nav {
+    float: right;
+    margin-right: 10%;
+}
+
+nav li  {
+    display: inline-block;
+    padding-top: 45px; 
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 45px 15px 25px 15px;
+}
+
+nav li a:hover {
+    background-color: #E9A345;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Main */
+
+body {
+    background-color: #CEDBE5;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 900px;
+    min-width: 900px;
+    
+}
+
+#crie-site {
+    overflow: hidden;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+#crie-site figure {
+    width: 50%;
+    float: left;
+    
+}
+
+#crie-site figure img {
+    width: 300px;
+    margin-left: calc( 50% - (300px/2) );
+    
+    
+}
+
+#crie-site article {
+    width: 40%;
+    float: right;
+}
+
+#crie-site h1, 
+#crie-site p {
+    margin: 10px 0 10px 0;;
+}
+
+#crie-site h1 {
+    color: #E9A345;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+#crie-site p {
+    /* color: white; */
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+#crie-site button {
+    border: 0;
+    padding: 10px;
+    background-color: #E9A345;   
+}
+
+#crie-site button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#crie-site button:hover {
+    background-color: #B63F9C;
+}
+
+
+
+/* Articles */
+
+section#articles {
+    /* border: 1px solid red; */
+    overflow: hidden;
+    width: 0 auto;
+    margin-bottom: 100px;
+    display: inline-block;
+    
+}
+
+#articles article {
+    background-color:#517C9D  ;
+    float: left;
+    width: 33.3%;
+    height: 279px;
+   
+
+}
+
+#articles img {
+    float: left;
+    padding: 20px;
+}
+
+#articles h1 {
+    padding: 10px;
+    background-color: #3A4454;
+    color: #E9A345;
+}
+
+#articles p {
+
+    padding: 20px;
+    font-size: 0.8em;
+    color: white;
+}
+
+
+
+
+/* footer */
+
+footer {
+    clear: both;
+    height: 20%;
+    background-color: #3A4454;
+    color: #E9A345;
+    position: relative;
+}
+
+footer h4 {
+    display: inline-block;
+    font-weight: 400;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+footer picture {
+    position: absolute;
+    right: 100px; 
+}
+
+footer img {
+    margin-left: 20px;
+    width: 30px;
+    padding-top: 20px;
+    
+}
